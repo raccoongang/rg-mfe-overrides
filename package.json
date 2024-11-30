@@ -8,7 +8,7 @@
   "scripts": {
     "lint": "fedx-scripts eslint --ext .js .",
     "lint:fix": "fedx-scripts eslint --ext .js . --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "fedx-scripts jest --coverage"
   },
   "license": "ISC",
   "dependencies": {

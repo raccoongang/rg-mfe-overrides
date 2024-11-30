@@ -14,9 +14,8 @@ and this project adheres to customized Semantic Versioning e.g.: `redwood-rg.1`
 
 Added:
 =====
-* add CI checkers: tests, linters checkers (RGInt-303)
-* add configs and tests (RGInt-303)
-* add documentation (RGInt-303)
+* add CI checkers (RGInt-313)
+* updated README (RGInt-313)
 
 [redwood-rg.3] 2024-11-27 (Redwood RG release)
 ****************************************
