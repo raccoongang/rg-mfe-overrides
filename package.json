@@ -5,9 +5,17 @@
   "bin": {
     "mfe-cli": "./bin/mfe-cli.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raccoongang/rg-mfe-overrides"
+  },
+  "author": "Raccoon gang",
   "scripts": {
     "lint": "fedx-scripts eslint --ext .js .",
     "lint:fix": "fedx-scripts eslint --ext .js . --fix"
+  },
+  "bugs": {
+    "url": "https://github.com/raccoongang/rg-mfe-overrides/issues"
   },
   "license": "ISC",
   "dependencies": {
