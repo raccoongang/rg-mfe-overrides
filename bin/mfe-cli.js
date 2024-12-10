@@ -69,16 +69,20 @@ switch (command) {
     console.log(`
   Available commands:
   ${chalk.blue('commit <path>')}:
-    Commits changes in the frontend-build/overrides directory.
+    Commits changes in the specified directory. 
+    Use this command in a MFE directory containing changes you want to commit.
 
   ${chalk.blue('list-changes')}:
-    Lists all changes in the repository.
+    Lists all changes in the MFE directory.
+    Use this command in the root directory of the MFE to display all uncommitted changes.
 
   ${chalk.blue('apply-overrides <path>')}:
-    Applies override files from the frontend-build/overrides directory.
+    Applies override files from frontend-build/overrides directory.
+    Use this command in a MFE project where overrides need to be applied.
 
   ${chalk.blue('install-frontend-build <git_repo_url>')}:
     Installs frontend-build from the provided Git URL.
+    Use this command in the root directory of your MFE to fetch and set up the latest or custom version of frontend-build.
 
   ${chalk.blue('help')}:
     Displays this help message with a list of available commands.

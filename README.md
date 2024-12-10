@@ -8,18 +8,12 @@ The **rg-mfe-overrides CLI** is a command-line tool designed to streamline the m
 
 To integrate the CLI into your MFE project:
 
-1. Add `rg-mfe-overrides` as a dependency in your `package.json`:
+Add `rg-mfe-overrides` as a dependency in your `package.json`:
 
    ```json
    "dependencies": {
      "rg-mfe-overrides": "git+https://github.com/raccoongang/rg-mfe-overrides.git#<version>"
    }
-   ```
-
-2. Install the dependency:
-
-   ```bash
-   npm install
    ```
 
 ---

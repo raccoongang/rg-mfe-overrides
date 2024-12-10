@@ -9,17 +9,11 @@ and this project adheres to customized Semantic Versioning e.g.: `redwood-rg.1`
 [Unreleased]
 ************
 
-[redwood-rg.3] 2024-11-28 (Redwood RG release)
-****************************************
-
-Added:
-=====
-* add CI checkers (RGInt-313)
-* updated README (RGInt-313)
-
-[redwood-rg.3] 2024-11-27 (Redwood RG release)
+2024-11-28
 ****************************************
 
 Added:
 =====
 * initialize project structure (RGInt-313)
+    - add CI checkers (RGInt-313)
+    - updated README (RGInt-313)
