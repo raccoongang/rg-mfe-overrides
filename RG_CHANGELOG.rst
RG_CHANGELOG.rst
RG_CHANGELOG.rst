@@ -9,9 +9,6 @@ and this project adheres to customized Semantic Versioning e.g.: `redwood-rg.1`
 [Unreleased]
 ************
 
-2024-11-28
-****************************************
-
 Added:
 =====
 * initialize project structure (RGInt-313)
