@@ -69,7 +69,7 @@ switch (command) {
     console.log(`
   Available commands:
   ${chalk.blue('commit <path>')}:
-    Commits changes in the specified directory. 
+    Commits changes in the frontend-build/overrides directory. 
     Use this command in a MFE directory containing changes you want to commit.
 
   ${chalk.blue('list-changes')}:

@@ -10,7 +10,7 @@ and this project adheres to customized Semantic Versioning e.g.: `redwood-rg.1`
 ************
 
 Added:
-=====
+======
 * initialize project structure (RGInt-313)
     - add CI checkers (RGInt-313)
     - updated README (RGInt-313)

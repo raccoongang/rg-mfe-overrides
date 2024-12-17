@@ -9,7 +9,7 @@
     "type": "git",
     "url": "https://github.com/raccoongang/rg-mfe-overrides"
   },
-  "author": "Raccoon gang",
+  "author": "Raccoon Gang",
   "scripts": {
     "lint": "fedx-scripts eslint --ext .js .",
     "lint:fix": "fedx-scripts eslint --ext .js . --fix"

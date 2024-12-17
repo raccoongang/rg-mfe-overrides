@@ -55,7 +55,7 @@ mfe-cli list-changes
 
 ### **3. Apply Overrides**
 
-Copies or creates files from the `frontend-build/overrides` directory back into the working directory of your MFE.
+Moves modified or newly added files from the `frontend-build/overrides` directory back into the working directory of your MFE.
 Useful for applying override changes.
 
 #### **Usage**:
