@@ -2,8 +2,27 @@
   "name": "rg-mfe-overrides",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "mfe-cli": "./bin/mfe-cli.js"
   },
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raccoongang/rg-mfe-overrides"
+  },
+  "author": "Raccoon Gang",
+  "scripts": {
+    "lint": "fedx-scripts eslint --ext .js .",
+    "lint:fix": "fedx-scripts eslint --ext .js . --fix"
+  },
+  "bugs": {
+    "url": "https://github.com/raccoongang/rg-mfe-overrides/issues"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "simple-git": "^3.20.0"
+  },
+  "devDependencies": {
+    "@openedx/frontend-build": "13.0.27"
+  }
 }
