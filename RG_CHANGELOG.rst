@@ -14,3 +14,4 @@ Added:
 * initialize project structure (RGInt-313)
     - add CI checkers (RGInt-313)
     - updated README (RGInt-313)
+    - added note about `git add` in commit section
