@@ -34,6 +34,10 @@ mfe-cli commit <path>
 mfe-cli commit ../frontend-build/overrides
 ```
 
+#### **⚠️ Important Note**:
+Before running `mfe-cli commit`, ensure all intended files are staged with `git add`.
+The CLI only commits files that are tracked by Git, so unstaged changes will be ignored.
+
 ---
 
 ### **2. List Changes**
